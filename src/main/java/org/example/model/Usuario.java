@@ -6,7 +6,7 @@ import lombok.*;
 @Getter
 @NoArgsConstructor
 public class Usuario {
-    public int id;
-    public String nome;
-    public String senha;
+    private int id;
+    private String nome;
+    private String senha;
 }
